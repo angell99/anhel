@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Subir archivo</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+</head>
+<body>
+    <div id="header">  
+        <div class="container">
+			<div id="main_menu">
+				<ul>
+					<li class="first_list"><a href="upload.html" class="main_menu_first main_current">HOME</a></li>
+					<li class="first_list"><a href="upload.html" class="main_menu_first main_current">AWS</a></li>
+					<li class="first_list"><a href="upload.html" class="main_menu_first main_current">CLOUD9</a></li>
+					<li class="first_list"><a href="upload.html" class="main_menu_first main_current">MOODLE CENTRO</a></li>
+					<li class="first_list"><a href="upload.html" class="main_menu_first main_current">GITHUB</a></li> 
+				</ul>
+			</div>
+        </div>
+    </div>
+    <div id="main_content">
+        <div id="slideshow_area">
+			<div class="container">
+				<div id="slideshow_container">
+					<form action="upload.php" method="post" enctype="multipart/form-data">
+						<input type="file" name="archivo">
+						<input type="submit" value="Subir">
+					</form>
+				</div>
+			</div>
+        </div>
+    </div>
+</body>
+</html>
